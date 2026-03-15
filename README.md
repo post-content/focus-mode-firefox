@@ -47,3 +47,4 @@ Click the extension icon (or press the keyboard shortcut) to toggle focus mode o
 ## Credits
 
 Original Chrome extension by [fermentationist](https://github.com/fermentationist/focus-mode-chrome).
+Built with [Claude](www.claude.ai).
