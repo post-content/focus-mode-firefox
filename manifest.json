@@ -1,5 +1,5 @@
 {
-  "manifest_version": 3,
+  "manifest_version": 2,
   "name": "Focus Mode",
   "description": "Enable focus mode on Google Docs",
   "version": "1.0",
@@ -9,18 +9,19 @@
     "128": "images/icons/default/icon-128.png"
   },
   "background": {
-    "service_worker": "background.js"
+    "scripts": ["background.js"],
+    "persistent": false
   },
-  "action": {
+  "browser_action": {
     "default_icon": {
       "16": "images/icons/default/icon-16.png",
       "48": "images/icons/default/icon-48.png",
       "128": "images/icons/default/icon-128.png"
     }
   },
-  "permissions": ["scripting", "activeTab"],
+  "permissions": ["scripting", "activeTab", "tabs"],
   "commands": {
-    "_execute_action": {
+    "_execute_browser_action": {
       "suggested_key": {
         "default": "Ctrl+Shift+F",
         "mac": "Command+Shift+F"
