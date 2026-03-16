@@ -29,14 +29,7 @@ Click the extension icon (or press the keyboard shortcut) to toggle focus mode o
 5. Navigate to the repo folder and select `manifest.json`
 6. The extension will appear in your toolbar
 
-> Note: Temporary add-ons are removed when Firefox closes. For a permanent install, see below.
-
-### Permanent
-
-1. You can also install a signed add-on from a file. 
-2. You can install the add-on using the gear icon in the upper-right area of the Add-ons Manager Extensions panel
-3. Select Install Add-on from file… from the menu, then find and select the file.
-4. Once an extension has been installed, you can pin its icon to the toolbar for easy access.
+> Note: Temporary add-ons are removed when Firefox closes. Working on a permanent install method.
 
 ## Changes from upstream
 
