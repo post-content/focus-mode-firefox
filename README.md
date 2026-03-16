@@ -33,10 +33,10 @@ Click the extension icon (or press the keyboard shortcut) to toggle focus mode o
 
 ### Permanent
 
-1. Zip the contents of the repo (not the folder, everything inside it)
-2. Go to [addons.mozilla.org](https://addons.mozilla.org) and sign in
-3. Submit the zip for review
-4. Once approved, install it like any other Firefox extension
+1. You can also install a signed add-on from a file. 
+2. You can install the add-on using the gear icon in the upper-right area of the Add-ons Manager Extensions panel
+3. Select Install Add-on from file… from the menu, then find and select the file.
+4. Once an extension has been installed, you can pin its icon to the toolbar for easy access.
 
 ## Changes from upstream
 
