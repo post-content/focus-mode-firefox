@@ -20,16 +20,20 @@ Click the extension icon (or press the keyboard shortcut) to toggle focus mode o
 
 ## Installation
 
-### Temporary (for testing)
+### Temporary
 
 1. Download or clone this repo
-2. Open Firefox and go to `about:debugging`
-3. Click **This Firefox** in the left sidebar
-4. Click **Load Temporary Add-on**
-5. Navigate to the repo folder and select `manifest.json`
-6. The extension will appear in your toolbar
+2. Go to `about:debugging` → **This Firefox** → **Load Temporary Add-on**
+3. Select `manifest.json` from the repo folder
 
-> Note: Temporary add-ons are removed when Firefox closes. Working on a permanent install method.
+> Temporary add-ons are removed when Firefox closes.
+
+### Permanent (Firefox Developer Edition or Nightly only)
+
+1. Install [Firefox Developer Edition](https://www.mozilla.org/en-US/firefox/developer/) or Nightly
+2. Go to `about:config` and set `xpinstall.signatures.required` to `false`
+3. Zip all the repo files and rename the archive from `.zip` to `.xpi`
+4. Drag the `.xpi` file onto Firefox to install
 
 ## Changes from upstream
 
